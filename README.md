@@ -64,6 +64,14 @@ data/
 
 ![Decision tree predicted vs real and feature importance](images/Decision_Tree.png)
 
+### Experiment: how much history do we need?
+
+We predict the newest quarter (2026 Q2) using only the last 1, 2, 4, 8 or all 21 quarters before it.
+
+![History experiment](images/History_Experiment.png)
+
+The most recent one to two years of data are enough. Using all history since 2020 even makes Linear Regression worse.
+
 ## How to run
 
 1. Install the requirements:
