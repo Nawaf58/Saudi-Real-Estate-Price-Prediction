@@ -60,6 +60,10 @@ data/
 - For predicting the newest quarter, the most recent one to two years of data are enough; using all history since 2020 hurts linear regression.
 - The remaining error mainly reflects information the dataset does not contain (street, plot shape, buildings).
 
+**Decision tree: predicted vs real price, and importance of each input**
+
+![Decision tree predicted vs real and feature importance](images/Decision_Tree.png)
+
 ## How to run
 
 1. Install the requirements:
